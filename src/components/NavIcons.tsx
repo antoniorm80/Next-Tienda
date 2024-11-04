@@ -25,7 +25,7 @@ const NavIcons = () => {
   }
 
   return (
-    <div className="flex items-center gap-4 xl:gap-6 relative" >
+    <div className="flex items-center gap-4 xl:gap-4 relative" >
       <Image src="/profile.png" alt="Profile" width={22} height={22} className="cursor-pointer"
       onClick={handleProfile}
       />
@@ -33,10 +33,10 @@ const NavIcons = () => {
         <Link href="/">Profile</Link>
         <div className="mt-2 cursor-pointer">Logout</div>
       </div> }
-      <Image src="/notification.png" alt="Notification" width={22} height={22} className="cursor-pointer"/>
+      <Image src="/notification.png" alt="Notification" width={22} height={22} className="cursor-pointer"/>      
       <div className="relative cursor-pointer">
-        <Image src="/cart.png" alt="Cart" width={22} height={22} className="cursor-pointer" onClick={() => setIsCardOpen((prev) => !prev)}/>
-        <div className="absoulte -top-2 -right-6 w-6 h-6 bg-lubou rounded-full text-white text-sm flex items-center justify-center">2</div>
+        <Image src="/cart.png" alt="Cart" width={22} height={22} onClick={() => setIsCardOpen((prev) => !prev)}/>
+        <div className="absolute -top-4 -right-4 w-6 h-6 bg-lubou rounded-full text-white text-sm flex items-center justify-center">2</div>
       </div>      
       { isCardOpen && <CardModal/>}
     </div>
