@@ -11,8 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
-    },
+        lubou: "#F35C7A",
+      },   
+    },   
   },
   plugins: [],
 };

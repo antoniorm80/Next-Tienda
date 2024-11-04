@@ -1,0 +1,9 @@
+"use cliemt"
+
+const CardModal = () => {
+  return (
+    <div>CardModal</div>
+  )
+}
+
+export default CardModal
