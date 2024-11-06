@@ -12,7 +12,7 @@ const CardModal = () => {
         <div className="">Cart is Empty</div>
       ) : (
         <>
-        <h2 className="text-xl font-extralight">Shopping Cart</h2>
+        <h2 className="text-xl font-semibold">Shopping Cart</h2>
           {/* List */}
           <div className="flex flex-col gap-8">
             {/* Item */}

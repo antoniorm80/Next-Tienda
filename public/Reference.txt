@@ -1,1 +1,4 @@
 rafce = compt --snippet
+
+No se cargarán los fotos de Pexel que están en la carpeta Public/pexel y se 
+agrego al git ignore. 
