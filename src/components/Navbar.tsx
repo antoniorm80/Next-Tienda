@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Menu from "./Menu";
-import Image from "next/image";
 import SearchBar from "./SearchBar";
 import NavIcons from "./NavIcons";
 
