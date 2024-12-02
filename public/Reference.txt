@@ -1,3 +1,18 @@
+Referncia
+    Youtube: https://www.youtube.com/watch?v=I0BOUiFe9WY&t=4022s
+    Github: https://github.com/safak/next-ecommerce/tree/completed
+
+Repositorio:
+Folder: C:\Proyectos\NextJs\ECommerce\tienda
+Fecha: 03-Nov-2024
+Actualizado: 02-Dic-2024
+Hora: 1:35:00 -> 1:45:20
+
+Hosting:
+    URL: https://antonior122.sg-host.com/
+    FTP: tienda -tiendota1#9#
+    Creaction: 02-Dic-2024
+
 rafce = compt --snippet
 
 No se cargarán los fotos de Pexel que están en la carpeta Public/pexel y se 
